@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style1.css" rel="stylesheet">
+</head>
+
+<body>
+    <!----------Navbar------- -->
+    <nav class="navbar navbar-expand-md navbar-light sticky-top" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="image/logo.jpg" height="45" width="85"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Add More Blogs</a>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex ml-auto">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+
+    </nav>
+
+
+    <header class="heading">
+        <img src="image/technology.gif" alt="" width="65%">
+    </header>
+
+
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Latest Article</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat unde cupiditate necessitatibus illum, tenetur atque.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="image/ocean.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">The Manhattan Project</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, cum.</p>
+                        <!-- <a href="#" class="btn btn-outline-secondary">Read More</a> -->
+
+                        <!-- To access Modal -->
+                        <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#post1Modal">Read More</button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- --------Bootstrap Modal --------- -->
+            <div class="modal fade" id="post1Modal" tabindex="-1" aria-labelledby="post1ModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="post1ModalLabel">The Manhattan Project</h5>
+                            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="image/ocean.jpg" height="300px" alt="...">
+                            <small class="card-subtitle mb-2 text-muted">Posted by Samarth on 17th September</small>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam praesentium necessitatibus numquam reprehenderit perferendis inventore nobis ab ad perspiciatis pariatur, in nihil aut magnam, molestiae iusto sapiente nostrum
+                                beatae fugit at nesciunt modi quasi doloremque rem? Voluptatibus nesciunt omnis repellendus, placeat illum nisi tenetur officiis perspiciatis dignissimos veniam exercitationem ipsa!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="image/ocean.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">The Manhattan Project</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, cum.</p>
+                        <!-- <a href="#" class="btn btn-outline-secondary">Read More</a> -->
+
+                        <!-- To access Modal -->
+                        <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#post1Modal">Read More</button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- --------Bootstrap Modal --------- -->
+            <div class="modal fade" id="post1Modal" tabindex="-1" aria-labelledby="post1ModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="post1ModalLabel">The Manhattan Project</h5>
+                            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="image/ocean.jpg" height="300px" alt="...">
+                            <small class="card-subtitle mb-2 text-muted">Posted by Samarth on 17th September</small>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam praesentium necessitatibus numquam reprehenderit perferendis inventore nobis ab ad perspiciatis pariatur, in nihil aut magnam, molestiae iusto sapiente nostrum
+                                beatae fugit at nesciunt modi quasi doloremque rem? Voluptatibus nesciunt omnis repellendus, placeat illum nisi tenetur officiis perspiciatis dignissimos veniam exercitationem ipsa!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="image/ocean.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">The Manhattan Project</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, cum.</p>
+                        <!-- <a href="#" class="btn btn-outline-secondary">Read More</a> -->
+
+                        <!-- To access Modal -->
+                        <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#post1Modal">Read More</button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- --------Bootstrap Modal --------- -->
+            <div class="modal fade" id="post1Modal" tabindex="-1" aria-labelledby="post1ModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="post1ModalLabel">The Manhattan Project</h5>
+                            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="image/ocean.jpg" height="300px" alt="...">
+                            <small class="card-subtitle mb-2 text-muted">Posted by Samarth on 17th September</small>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam praesentium necessitatibus numquam reprehenderit perferendis inventore nobis ab ad perspiciatis pariatur, in nihil aut magnam, molestiae iusto sapiente nostrum
+                                beatae fugit at nesciunt modi quasi doloremque rem? Voluptatibus nesciunt omnis repellendus, placeat illum nisi tenetur officiis perspiciatis dignissimos veniam exercitationem ipsa!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <form action="" class="formAdd form1" id="formAdd">
+        <div class="container-fluid padding spd">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">Add A New Blog</h1>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+        <div class="container-fluid padding">
+
+            <div class="row padding">
+
+
+                <div class="col-12">
+                    <label class="title">Title :</label>
+                    <input type="text" name="title" id="inpTitle" class="title1" placeholder="Enter Your Blog Title">
+                </div>
+                <div class="col-12">
+                    <label class="author">Author :</label>
+                    <input type="text" name="author" id="inpAuthor" class="author1" placeholder="Your name?">
+                </div>
+                <div class="col-12">
+                    <label class="date">Date :</label>
+                    <input type="date" name="date" id="inpDate" class="date1" placeholder="Plublished on">
+                </div>
+                <div class="col-12">
+                    <label class="content">Content :</label>
+                    <textarea name="content" id="inpText" class="content1" cols="30" rows="10"></textarea>
+                </div>
+                <div class="col-12 abcd">
+                    <button class="btn btn-lg" id="publish1" type="submit">Publish</button>
+                </div>
+                <!-- local storage -->
+
+                <div class="col-12">
+                    <label for="content" class="contact-label">Local Storage</label>
+                    <div class="Output" id="Output"></div>
+                </div>
+
+
+            </div>
+        </div>
+    </form>
+    <hr class="my-4">
+
+
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed">
+                <img src="image/sample.jpg" alt="" width="100%" height="100%">
+            </div>
+        </div>
+    </figure>
+    <hr class="my-4">
+
+
+    <div id="slides" class="carousel slide" data-ride="carousel">
+
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1" class="active"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/adc.jpg">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Archieves</h1>
+                    <ul id="arch">
+                        <li><a href="" target="_blank">March 2018</a></li>
+                        <li><a href="" target="_blank">April 2018</a></li>
+                        <li><a href="" target="_blank">May 2018</a></li>
+                        <li><a href="" target="_blank">June 2018</a></li>
+                        <li><a href="" target="_blank">July 2018</a></li>
+                        <li><a href="" target="_blank">August 2018</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="image/adc.jpg">
+                <div class="carousel-caption">
+                    <h1 class="display-2">CATEGORIES</h1>
+                    <ul id="arch">
+                        <li><a href="" target="_blank">March 2018</a></li>
+                        <li><a href="" target="_blank">April 2018</a></li>
+                        <li><a href="" target="_blank">May 2018</a></li>
+                        <li><a href="" target="_blank">June 2018</a></li>
+                        <li><a href="" target="_blank">July 2018</a></li>
+                        <li><a href="" target="_blank">August 2018</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container-fluid padding">
+        <div class="row text-center padding social-media">
+            <div class="col-12 abc">
+                <h1 class="display-4">Connect</h1>
+            </div>
+            <hr>
+            <div class="col-12 social padding">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center modify">
+                <div class="col-12">
+                    <img src="image/logo.jpg" height="50" width="95">
+                    <hr class="light">
+                    <p>Made with &#10084;&#65039; by <a href="http://istemanipal.com" target="_blank" class="menu-btn">ISTE Manipal</a></p>
+                </div>
+                <div class="col-12">
+                    <hr class="light-100">
+                    <a href="#" class="menu-btn">&copy; All Rights Reserved, 2020-2021</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="index.js"></script>
+
+</html>
